@@ -703,19 +703,6 @@ header {
 .container-checkbox {
   margin-bottom: 24px;
 }
-.visually-hidden-input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .checkbox-label {
   font-size: 12px;
@@ -736,7 +723,7 @@ header {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden-input:checked + .checkbox-label > .checkbox-span {
+.visually-hidden:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
