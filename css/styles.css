@@ -736,7 +736,7 @@ header {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden-input:checked + .checkbox-span {
+.visually-hidden-input:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
